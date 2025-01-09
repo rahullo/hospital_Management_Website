@@ -1,0 +1,39 @@
+.pantry {
+    padding: 20px;
+  }
+  
+  .pantry h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pantry-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .pantry-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .pantry-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pantry-card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+  .pantry-card p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
